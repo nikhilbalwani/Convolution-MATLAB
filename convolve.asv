@@ -1,0 +1,13 @@
+function clin = convolve(x, y)
+    N = length(x);
+    M = length(y);
+    
+    Nclin = N + M - 1;
+    
+    clin = zeros(1, Nclin);
+    
+    for i = 1:N
+        for j = 1:M
+            y(i + k - 1) = 
+end
+
